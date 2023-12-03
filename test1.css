@@ -1,0 +1,88 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+body{
+    background: linear-gradient(241.29deg, #00fff0 0%, #000066 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div1{
+        margin-top: 45px;
+        margin-bottom: 150px;
+        padding: 20px;
+        height: 550px;
+        
+    transition-duration: 0.5s;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #ccff66 0%, #33cc33 100%);
+    
+}
+#div1:hover{
+        border-radius: 30px;
+        box-shadow: 6px 6px 6px 7px #000000;
+}
+.d2{
+    text-align: center;
+}
+.focus-in-contract-bck {
+	-webkit-animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+i{
+    color: #ffffff;
+     font-size: 60px;
+}
+.horizontal-line {
+        display: inline-block;
+        border-top: 3px solid black;
+        text-align: center;
+}
+.hr1 {
+        width: 45%;
+}
+.hr2 {
+        width: 45%;
+        mergin-left: 10px;
+} 
+@media screen and (min-width: 720px){
+        #div1{
+                width: 100%;
+        }
+        
+}
